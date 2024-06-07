@@ -8,43 +8,43 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "Garden",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "garden.addwonder.com",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "Noto Sans",
+        body: "Noto Sans",
         code: "IBM Plex Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          light:  "rgba(251, 255, 248, 1)", // background "#faf8f8",
+          lightgray: "rgba(108, 149, 215, 1)",// "rgba(225, 229, 222, 1)", // scaffold  "#e5e5e5",
+          gray: "rgba(33, 33, 108, 1)", // blocking  dark blue "#b8b8b8",
+          darkgray: "rgba(33, 33, 108, 1)", // body text - dark blue "#4e4e4e",
+          dark: "rgba(53, 53, 128, 1)", // headers and icons - dark blue "#2b2b2b",
+          secondary: "rgba(249, 79, 117, 1)", // links and active -- bright pink swap "#284b63",
+          tertiary:  "rgba(108, 149, 215, 1)", // hover state -- Light Blue Swap  "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          light:  "rgba(3, 3, 78, 1)", // background -- dark gray "#161618",
+          lightgray: "rgba(108, 149, 215, 1)", // scaffold -- "#393639",
+          gray: "#646464", // blocking --
+          darkgray: "#d4d4d4", // text body --
+          dark: "rgba(251, 255, 248, 1)", // "#ebebec", // headers and icons -- 
+          secondary: "rgba(249, 79, 117, 1)", // links -- bright pink swap "#7b97aa",
+          tertiary: "rgba(108, 149, 215, 1)", // hover state -- Light Blue Swap "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
       },
