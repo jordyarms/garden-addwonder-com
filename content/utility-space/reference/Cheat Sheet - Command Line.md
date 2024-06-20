@@ -43,6 +43,12 @@ Open current Folder
 ```shell
 open .
 ```
+
+## Escape VI
+
+```vim
+:q
+```
 ## Other
 See what is running: `top`
 Exit an executed process: `ctrl` + `c` |  `q`
